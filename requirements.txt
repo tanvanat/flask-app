@@ -1,4 +1,4 @@
 Flask==3.0.3
-gunicorn==21.2.0
-pydantic==2.9.2
-pydantic-settings==2.5.2
+gunicorn==21.2.0 #Web server gateway interface มีหลายตัวเเต่ตัวนี้นิยมเอามาใช้กับflask
+pydantic==2.9.2 #ใช้สำหรับ validate และจัดการ data models eg.ถ้าtypeไม่ตรงจะerror
+pydantic-settings==2.5.2 #สะดวกมากเวลา deploy เพราะไม่ต้องแก้โค้ด → แค่แก้ค่าใน .env
