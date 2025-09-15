@@ -121,7 +121,7 @@ docker push registry.nipa.cloud/front-test/flask-api:1.0.0
 docker pull registry.nipa.cloud/front-test/flask-api:1.0.0
 
 docker run -d -p 8000:8000 registry.nipa.cloud/front-test/flask-api:1.0.0
-<<<<<<< HEAD
+
 # แล้วเปิด http://localhost:8000
 ```
 
