@@ -39,4 +39,6 @@ python -m flask --app services.api.app run
 
 # สำหรับผู้ใช้คนอื่น
 docker pull registry.nipa.cloud/front-test/flask-api:1.0.0
+
 docker run -d -p 8000:8000 registry.nipa.cloud/front-test/flask-api:1.0.0
+
