@@ -1,5 +1,7 @@
 # Flask + Docker + NIPA Registry
 
+# แอปของเราพัฒนาโดยใช้ Flask บรรจุเป็น Docker container และเผยแพร่บน NIPA Registry
+
 แอปนี้พัฒนาโดยใช้ **Flask**, แพ็กเป็น **Docker container**, และเผยแพร่บน **NIPA Registry**
 เข้าทดสอบได้ที่ `http://localhost:8000`
 
@@ -117,7 +119,9 @@ docker push registry.nipa.cloud/front-test/flask-api:1.0.0
 
 ```bash
 docker pull registry.nipa.cloud/front-test/flask-api:1.0.0
+
 docker run -d -p 8000:8000 registry.nipa.cloud/front-test/flask-api:1.0.0
+<<<<<<< HEAD
 # แล้วเปิด http://localhost:8000
 ```
 
