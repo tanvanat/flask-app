@@ -1,3 +1,11 @@
+# เเอปที่อยู่ในdocker containerเเละnipa registry เราใช้flask frameworkสร้าง
+
+เข้าได้ผ่าน localhost:8000
+มี3path 
+1.localhost:8000 
+2.http://localhost:8000/greet 
+3.http://localhost:8000/healthz
+
 # ที่โฟลเดอร์ที่ต้องการ
 mkdir flask-app; cd flask-app
 
