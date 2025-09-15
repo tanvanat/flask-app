@@ -1,4 +1,4 @@
-# เเอปที่อยู่ในdocker containerเเละnipa registry เราใช้flask frameworkสร้าง
+# แอปของเราพัฒนาโดยใช้ Flask บรรจุเป็น Docker container และเผยแพร่บน NIPA Registry
 
 เข้าได้ผ่าน localhost:8000
 มี3path 
@@ -41,4 +41,5 @@ python -m flask --app services.api.app run
 docker pull registry.nipa.cloud/front-test/flask-api:1.0.0
 
 docker run -d -p 8000:8000 registry.nipa.cloud/front-test/flask-api:1.0.0
+
 
